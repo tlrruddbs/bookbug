@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/baseLayout"
+    android:orientation="vertical"
+    tools:context="com.example.it.myapplication.MainActivity"
+    android:background="@drawable/background1"
+    android:padding="30dp">
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="40dp"
+        android:text="메뉴"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="책읽기"
+        android:layout_gravity="left"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:id="@+id/btn1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="듣기좋은 음악"
+        android:layout_gravity="left"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:id="@+id/btn2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="책 추천"
+        android:layout_gravity="left"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:id="@+id/btn3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="책 찾기"
+        android:layout_gravity="left"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:id="@+id/btn4"/>
+</LinearLayout>

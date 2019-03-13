@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.it.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:label="책벌레">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".MusicService">
+            <intent-filter>
+                <action android:name="com.example.it.myapplication"/>
+            </intent-filter>
+        </service>
+        <activity android:name=".onetwojava"/>
+        <activity android:name=".onetwo2java"/>
+        <activity android:name=".oneoneonejava"/>
+        <activity android:name=".oneonetwojava"/>
+        <activity android:name=".onefourjava"/>
+        <activity android:name=".three_1" android:label="책 추천"/>
+        <activity android:name=".three1_1"/>
+        <activity android:name=".three1_2"/>
+        <activity android:name=".three2_1"/>
+        <activity android:name=".three2_2"/>
+        <activity android:name=".three3_1"/>
+        <activity android:name=".three3_2"/>
+
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    </application>
+
+</manifest>
